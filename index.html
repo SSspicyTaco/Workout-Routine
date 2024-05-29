@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Workout Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+        }
+        h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 0.5rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -19,18 +59,19 @@
         <section id="weekly-routine">
             <h2>Weekly Workout Routine</h2>
             <ul>
-                <li>Monday: Upper Body Strength</li>
-                <li>Tuesday: Cardio</li>
-                <li>Wednesday: Lower Body Strength</li>
-                <li>Thursday: Flexibility</li>
-                <li>Friday: Full Body Strength</li>
-                <li>Saturday: Cardio</li>
-                <li>Sunday: Rest</li>
+                <li>Monday: Upper Body Strength and Calisthenics</li>
+                <li>Tuesday: Lower Body Strength and Cardio</li>
+                <li>Wednesday: Active Recovery and Flexibility</li>
+                <li>Thursday: Gymnastics Skills and Upper Body</li>
+                <li>Friday: Lower Body Strength and Cardio</li>
+                <li>Saturday: Full Body and Endurance</li>
+                <li>Sunday: Rest or Light Activity</li>
             </ul>
         </section>
+        
         <section id="monday-workout">
-            <h2>Monday - Upper Body Strength</h2>
-            <h3>Warm-up (5-10 minutes)</h3>
+            <h2>Monday - Upper Body Strength and Calisthenics</h2>
+            <h3>Warm-up (10 minutes)</h3>
             <ul>
                 <li>Jumping jacks</li>
                 <li>Arm circles</li>
@@ -38,22 +79,159 @@
             </ul>
             <h3>Main Workout</h3>
             <ul>
-                <li>Push-ups: 3 sets of 12 reps</li>
-                <li>Dumbbell bench press: 3 sets of 10 reps</li>
-                <li>Bent-over rows: 3 sets of 12 reps</li>
-                <li>Bicep curls: 3 sets of 15 reps</li>
-                <li>Tricep dips: 3 sets of 12 reps</li>
-                <li>Shoulder press: 3 sets of 10 reps</li>
+                <li>Pull-ups: 4 sets of max reps</li>
+                <li>Muscle-ups: Practice technique for 15 minutes</li>
+                <li>Dumbbell bench press: 3 sets of 10 reps with 20 lb dumbbells</li>
+                <li>Dips: 3 sets of 12 reps</li>
+                <li>Handstand pushups: 3 sets of max reps</li>
             </ul>
-            <h3>Cool Down (5-10 minutes)</h3>
+            <h3>Core Workout</h3>
+            <ul>
+                <li>Hanging leg raises: 3 sets of 15 reps</li>
+                <li>Planks: 3 sets of 1 minute</li>
+                <li>Russian twists: 3 sets of 20 reps</li>
+            </ul>
+            <h3>Cool Down (10 minutes)</h3>
             <ul>
                 <li>Stretching exercises focusing on the upper body</li>
+            </ul>
+        </section>
+
+        <section id="tuesday-workout">
+            <h2>Tuesday - Lower Body Strength and Cardio</h2>
+            <h3>Warm-up (10 minutes)</h3>
+            <ul>
+                <li>Light jogging</li>
+                <li>Dynamic stretches</li>
+            </ul>
+            <h3>Main Workout</h3>
+            <ul>
+                <li>Pistol squats: 3 sets of 10 reps each leg</li>
+                <li>Weighted squats (with vest): 3 sets of 12 reps</li>
+                <li>Dumbbell lunges: 3 sets of 15 reps each leg</li>
+                <li>Calf raises: 3 sets of 20 reps</li>
+            </ul>
+            <h3>Cardio</h3>
+            <ul>
+                <li>Run 2 miles at a comfortable pace</li>
+            </ul>
+            <h3>Cool Down (10 minutes)</h3>
+            <ul>
+                <li>Stretching exercises focusing on the lower body</li>
+            </ul>
+        </section>
+
+        <section id="wednesday-workout">
+            <h2>Wednesday - Active Recovery and Flexibility</h2>
+            <h3>Flexibility Training (30-45 minutes)</h3>
+            <ul>
+                <li>Yoga routine focusing on full-body flexibility</li>
+                <li>Stretching for splits and bridges</li>
+            </ul>
+            <h3>Core Stability</h3>
+            <ul>
+                <li>Planches: Practice holds for 15 minutes</li>
+                <li>Front lever practice: 15 minutes</li>
+            </ul>
+        </section>
+
+        <section id="thursday-workout">
+            <h2>Thursday - Gymnastics Skills and Upper Body</h3>
+            <h3>Warm-up (10 minutes)</h3>
+            <ul>
+                <li>Jumping jacks</li>
+                <li>Arm circles</li>
+                <li>Light jogging</li>
+            </ul>
+            <h3>Main Workout</h3>
+            <ul>
+                <li>Pull-ups: 3 sets of max reps</li>
+                <li>Front lever practice: 15 minutes</li>
+                <li>Planche practice: 15 minutes</li>
+                <li>Dumbbell shoulder press: 3 sets of 12 reps with 20 lb dumbbells</li>
+                <li>Hanging bar hold: 3 sets of 1 minute</li>
+            </ul>
+            <h3>Core Workout</h3>
+            <ul>
+                <li>V-ups: 3 sets of 20 reps</li>
+                <li>L-sit holds: 3 sets of max time</li>
+                <li>Bicycle crunches: 3 sets of 25 reps</li>
+            </ul>
+            <h3>Cool Down (10 minutes)</h3>
+            <ul>
+                <li>Stretching exercises focusing on the upper body</li>
+            </ul>
+        </section>
+
+        <section id="friday-workout">
+            <h2>Friday - Lower Body Strength and Cardio</h2>
+            <h3>Warm-up (10 minutes)</h3>
+            <ul>
+                <li>Light jogging</li>
+                <li>Dynamic stretches</li>
+            </ul>
+            <h3>Main Workout</h3>
+            <ul>
+                <li>Pistol squats: 3 sets of 10 reps each leg</li>
+                <li>Weighted lunges (with vest): 3 sets of 15 reps each leg</li>
+                <li>Dumbbell deadlifts: 3 sets of 12 reps with 20 lb dumbbells</li>
+                <li>Glute bridges: 3 sets of 20 reps</li>
+            </ul>
+            <h3>Cardio</h3>
+            <ul>
+                <li>Sprint intervals: 10 x 100m sprints with rest in between</li>
+            </ul>
+            <h3>Cool Down (10 minutes)</h3>
+            <ul>
+                <li>Stretching exercises focusing on the lower body</li>
+            </ul>
+        </section>
+
+        <section id="saturday-workout">
+            <h2>Saturday - Full Body and Endurance</h2>
+            <h3>Warm-up (10 minutes)</h3>
+            <ul>
+                <li>Jumping jacks</li>
+                <li>Light jogging</li>
+            </ul>
+            <h3>Main Workout</h3>
+            <ul>
+                <li>Circuit training: Repeat 3 times
+                    <ul>
+                        <li>Push-ups: 15 reps</li>
+                        <li>Squats: 20 reps</li>
+                        <li>Pull-ups: 10 reps</li>
+                        <li>Dips: 12 reps</li>
+                        <li>Plank: 1 minute</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Endurance</h3>
+            <ul>
+                <li>7-minute mile test (progress towards goal)</li>
+            </ul>
+            <h3>Cool Down (10 minutes)</h3>
+            <ul>
+                <li>Full-body stretching</li>
+            </ul>
+        </section>
+
+        <section id="sunday-workout">
+            <h2>Sunday - Rest or Light Activity</h2>
+            <h3>Active Recovery</h3>
+            <ul>
+                <li>Light stretching</li>
+                <li>Easy walk or light yoga</li>
             </ul>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Workout Plan</p>
     </footer>
-    <script src="js/scripts.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add any interactivity or feature-specific JavaScript here
+        });
+    </script>
 </body>
 </html>
